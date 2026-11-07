@@ -1,0 +1,33 @@
+{
+  "name": "nexus-panel",
+  "version": "1.0.0",
+  "description": "Premium Dashboard for Puppeteer Bot and Match Predictor",
+  "main": "./out/main/index.js",
+  "type": "module",
+  "author": "anfor183",
+  "scripts": {
+    "dev": "electron-vite dev --noSandbox",
+    "build": "electron-vite build",
+    "preview": "electron-vite preview --noSandbox",
+    "start": "electron --no-sandbox .",
+    "package": "npm run build && electron-builder"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.10.0",
+    "cors": "^2.8.6",
+    "express": "^5.3.0",
+    "lucide-react": "^0.378.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "ws": "^8.22.1"
+  },
+  "devDependencies": {
+    "@electron-toolkit/preload": "^3.0.0",
+    "@electron-toolkit/utils": "^3.0.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "electron": "^29.1.1",
+    "electron-builder": "^24.13.3",
+    "electron-vite": "^2.1.0",
+    "vite": "^5.1.4"
+  }
+}

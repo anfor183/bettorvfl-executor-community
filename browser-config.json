@@ -1,0 +1,69 @@
+{
+    "paths": {
+        "chrome": "",
+        "userDataDir": "profiles/DEFAULT",
+        "profilePath": "Default",
+        "cursorPath": "gold_mouse.png",
+        "customMouseEnabled": false
+    },
+    "vps": {
+        "enabled": "auto",
+        "lowMemoryMode": true,
+        "rendererProcessLimit": 1,
+        "maxV8MemoryMb": 256,
+        "blockHeavyMedia": false,
+        "autoReapZombies": true,
+        "reapIntervalMinutes": 10,
+        "pruneCacheOnStartup": true
+    },
+    "proxy": {
+        "enabled": false,
+        "username": "",
+        "password": "",
+        "host": "",
+        "port": 8080,
+        "protocol": "http",
+        "fallback": {
+            "useDirectConnection": true,
+            "maxRetries": 3
+        },
+        "scamalytics": {
+            "enabled": false,
+            "hostname": "api.scamalytics.com",
+            "username": "",
+            "apiKey": "",
+            "maxRiskScore": 50
+        }
+    },
+    "privacy": {
+        "webrtc": {
+            "block": false
+        }
+    },
+    "hardware": {
+        "acceleration": {
+            "enabled": false,
+            "canvas": "hardware",
+            "pageVisibility": true,
+            "media": {
+                "videoDecoding": "hardware",
+                "audioProcessing": "hardware",
+                "gpuRasterization": true,
+                "d3d11VideoDecoding": true,
+                "windowsOptimizations": true
+            }
+        }
+    },
+    "ai": {
+        "provider": "deepseek",
+        "deepseekApiKey": "",
+        "openaiApiKey": ""
+    },
+    "ui": {
+        "palette": "emerald"
+    },
+    "features": {
+        "autoReconnect": true,
+        "enhancedLogging": true
+    }
+}

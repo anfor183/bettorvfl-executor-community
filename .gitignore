@@ -1,0 +1,60 @@
+# Dependencies
+node_modules/
+dashboard/node_modules/
+
+# Build and package outputs
+dashboard/out/
+dashboard/dist/
+dist/
+build/
+
+# Browser binaries & user profiles
+chrome/
+profiles/
+profiles/**
+
+# Local runtime data & databases
+data/*
+!data/.gitkeep
+Virtual FootBall Data/
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+collected_signals.json
+fingerprint_test_results.json
+
+# Logs & scratch storage
+logs/*
+!logs/.gitkeep
+*.log
+scratch/
+scratch/**
+global_network_usage.json
+
+# Sensitive configuration, proxies & credentials
+bot_settings.json
+proxies.json
+personalities.json
+fp-script.js
+database connection details.txt
+.env
+.env.*
+!.env.example
+
+# OS and Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporary root screenshots and test scripts
+/*.png
+test*.js
+test.js
+
+# Temporary maintenance & patch scripts
+patch_*.js
+inspect_*.js
+integrate_web_bridge.js
+

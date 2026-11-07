@@ -1,0 +1,78 @@
+{
+  "betExecutorPlatform": "sportybet",
+  "outputDir": "./Virtual FootBall Data",
+  "virtualFootballScrapeMode": "full_fixtures",
+  "signalServer": {
+    "serverUrl": "http://127.0.0.1:4000",
+    "apiKey": "YOUR_SIGNAL_API_KEY",
+    "pollIntervalSec": 8,
+    "autoConnect": true
+  },
+  "betExecutor": {
+    "platform": "1xbet",
+    "targetUrl": "https://1xbet.com",
+    "loginType": "phone",
+    "loginIdentifier": "YOUR_1XBET_LOGIN_OR_PHONE",
+    "password": "YOUR_1XBET_PASSWORD",
+    "profileId": "temp",
+    "family": "DEFAULT",
+    "headless": false,
+    "currency": "NGN",
+    "stakeAmount": 60,
+    "stakePercentage": 2,
+    "stakeMode": "fixed",
+    "startingBankroll": 30000,
+    "stakingScaling": "uncapped",
+    "selectedTiers": [
+      "safest",
+      "high_chance"
+    ],
+    "selectedSignalTypes": [
+      "all"
+    ],
+    "selectedStrategy": "ai_best_pick",
+    "minOdds": 0,
+    "maxOdds": 0,
+    "minConfidence": 0,
+    "teamSearch": "",
+    "stopLoss": 10000,
+    "stopLossEnabled": true,
+    "takeProfit": 10000,
+    "takeProfitEnabled": true,
+    "autoBet": false
+  },
+  "sportybetExecutor": {
+    "platform": "sportybet",
+    "targetUrl": "https://www.sportybet.com/ng/virtual/",
+    "loginType": "phone",
+    "loginIdentifier": "YOUR_SPORTYBET_PHONE",
+    "password": "YOUR_SPORTYBET_PASSWORD",
+    "profileId": "profile_default",
+    "family": "sportybet",
+    "headless": false,
+    "currency": "NGN",
+    "stakeAmount": 10,
+    "stakePercentage": 2,
+    "stakeMode": "martingale_1_5",
+    "startingBankroll": 15000,
+    "stakingScaling": "uncapped",
+    "selectedTiers": [
+      "safest",
+      "high_chance",
+      "high_risk"
+    ],
+    "selectedSignalTypes": [
+      "all"
+    ],
+    "selectedStrategy": "ai_best_pick",
+    "minOdds": 0,
+    "maxOdds": 0,
+    "minConfidence": 0,
+    "teamSearch": "",
+    "stopLoss": 5000,
+    "stopLossEnabled": true,
+    "takeProfit": 10000,
+    "takeProfitEnabled": true,
+    "autoBet": true
+  }
+}
